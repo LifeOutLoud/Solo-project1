@@ -1,0 +1,191 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+@font-face {
+    font-family: Ferrum;
+    src: url(Ferrum.otf);
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ }  */
+
+body {
+    font-family: Ferrum;
+    color: black;
+    text-align: center;
+    margin: 0;
+    /* background-color: orange; */
+
+}
+
+.main-content {
+    margin: 0 auto;
+    width: 720px;
+
+}
+
+#hero {
+    background-image: url("images/MHW-ASTERA.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    height: 400px;
+    /* width: 720px; */
+    border-radius: 0px;
+    padding: 150px 0 50px 0;
+    margin-bottom: 0;
+
+}
+
+.hero-section {
+   padding: 20px;
+   /* border: 2px solid red; */
+}
+
+h1 {
+    color: white;
+    background-image: linear-gradient(#00000000, #1d3557);
+    height: 42px;
+    width: 225px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #1d3557;
+    height: 70px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+#activity-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1d3557;
+    background-color:white;
+    background-image: linear-gradient(360deg,#00000000, #1d3557);
+    width: 725px;
+    
+    padding-bottom: 5px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0px auto;
+    
+}
+
+
+.hero-text {
+    color: white;
+    background-image: linear-gradient(#00000000, #1d3557);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#activities {
+    
+    align-items: center;
+    height: 500px;
+    width: 720px;
+    margin: 0 auto;
+}
+
+.activity-card {
+    margin: 0 auto;
+    height: 431PX;
+    width: 720px;
+    /* border: 1px solid red; */
+    
+    
+    /* padding-top: 20px;  */
+    /* background-color: blue; */
+  
+}
+
+
+
+#activity-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.activity-img {
+    border: 5px double #1d3557;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+
+}
+
+#hero-img {
+    border: 5px solid white;
+    height: 720px;
+
+}
+
+#guide-section {
+    /* display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 720px; */
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+h2, p {
+    margin: 0 auto;
+}
+
+.guide-container {
+    height: 300px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1d3557;
+    background-color:white;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+#guide-text {
+    width: 200px;
+}
+
+.guide-img {
+    border: 5px double #1d3557;
+    border-radius: 100%;
+    height: 260px;
+    width: 240px;
+}
