@@ -182,6 +182,7 @@ h4 {
 
 
 .zoom:hover {
+    transition: transform 0.5s;
     transform: scale(2.0);
 
 }
